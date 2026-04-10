@@ -24,7 +24,7 @@ while (opcao !== '3') {
             let tipodoproduto = prompt('Digite o tipo do produto: ');
             let prazos = Number(prompt("Digite o prazo: "));
 
-            // 👉 Aqui salvamos no array
+        
             pedido.push({
                 numerodopedido,
                 material,
